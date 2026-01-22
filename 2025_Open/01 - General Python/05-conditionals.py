@@ -1,5 +1,6 @@
 cool_students = ["Léna", "Ben", "Fabian", "Yi", "Kai", "Chris"]
 
+# Sets only have containment conditionals
 # Check to see if Ryan is in that list up there
 if "Ryan" in cool_students:
     # If so, say this
