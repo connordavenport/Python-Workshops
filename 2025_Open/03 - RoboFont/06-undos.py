@@ -1,5 +1,12 @@
 from random import randint
 
+# Context Managers
+# Allows us to do things and store them in groups
+# Every manager can act differently but the general
+# concept is that anything that happens inside a `with`
+# statement will be lumped together, so anything inside a 
+# glyph's undo manager, `⌘ Z` will apply to all of those actions
+
 glyph = CurrentGlyph()
 
 # Use a with statement to store and undo in the glyph object
