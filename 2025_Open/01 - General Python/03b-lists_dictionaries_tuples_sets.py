@@ -28,6 +28,11 @@ favorite_colors = {
 print(favorite_colors)
 # Print Ben’s favorite color
 print(favorite_colors["Ben"])
+# Getting an item from a dictionary that does not exist can lead to errors
+# we can also use a dictionary's .get() function to get it if it exists
+print(favorite_colors.get("Ben"))
+# .get() also accepts a "fallback" value in the case it doesnt exist
+print(favorite_colors.get("Hannas", "White"))
 # Set Ryan’s favorite color as you add him to the dictionary
 favorite_colors["Ryan"] = "Green"
 print(favorite_colors)

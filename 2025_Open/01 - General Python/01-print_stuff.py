@@ -14,6 +14,7 @@ print("hey" + " class")
 # This isn't adding. It's putting strings together
 print("3" + "5")
 # print("hey" - "s")  # Doesn't work!!!!!
+# but maybe it can, lets look into this later:)
 
 # This is some math
 print(3)
@@ -24,7 +25,3 @@ print(3 / (5 - 2) + 32 * 465)
 
 # This is multiplying the length of a string by 1000
 print("hey class " * 1000)
-
-
-
-

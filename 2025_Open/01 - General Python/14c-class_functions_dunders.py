@@ -36,7 +36,20 @@ print("a" + "b")
 
 # __sub__(self, other):
 #  returns subtraction of two values, any object can subclass this
-print(2 - 1)
+# what if we want two custom string objects to subtract each other??
+class sub():
+    def __init__(self, name):
+        self.name = name
+
+    def __sub__(self, other):
+        name = self.name
+        if other.name in name:
+            name = name.replace(other.name, "")
+        return name
+
+s = sub("Hello")
+t = sub("o")
+print(s - t)
 
 # __mul__(self, other):
 #  returns multiplication of two values
