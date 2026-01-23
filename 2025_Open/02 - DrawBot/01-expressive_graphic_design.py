@@ -20,3 +20,19 @@ strokeWidth(50)
 
 # Draw a line
 line((40, 30), (990, 1240))
+
+# Make a list of points to draw
+points = [
+ (334, 572),
+ (1010, 744),
+ (1508, 600),
+ (1406, 1168),
+ (960, 1192),
+ (758, 1446),
+ (560, 1398)
+]
+# Remove stroke
+stroke(None)
+# Set fill to a transparent red
+fill(1,0,0,.2)
+polygon(*points, close=True)
